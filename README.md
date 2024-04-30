@@ -38,5 +38,31 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 === tutor ===
 - ```npx create-next-app@latest .```
-- tambahkan ```"dev": "next dev --turbo",``` di package.json
-
+- Tambahkan ```"dev": "next dev --turbo",``` di package.json
+- Pergi ke folder app
+    - hapus global.css kecuali
+    ```
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+- Pergi ke file page.tsx
+    - Edit page.tsx
+- Buat folder baru di app
+    - contacts
+        - page.tsx
+        - ```rafce```
+- Buat folder baru ```components``` di root
+    - buat file ```contact-table.tsx```
+    - ```rafce```
+    - ```table>thead>tr>th*5```
+    - ```tbody>tr>td*5```
+- Pergi ke Folder contacts
+    - import contact-table
+- Buat file di folder components
+    - search.tsx
+    - ```rafce```
+- ```npm i react-icons```
+- import react icons di search.tsx
+    - ```import {IoSearch} from "react-icons/io5"```
+- import component search ke page.tsx yang ada di contact
