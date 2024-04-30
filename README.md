@@ -66,3 +66,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - import react icons di search.tsx
     - ```import {IoSearch} from "react-icons/io5"```
 - import component search ke page.tsx yang ada di contact
+- Buat button.tsx di folder components
+- import ke folder contacts file page.tsx
